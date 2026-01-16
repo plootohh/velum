@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Cryptographic Artifacts ---
+*.pem
+*.key
+*.pub
+*.crt
+*.der
+*.pfx
+*.p12
+*.rnd
+*.entropy
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- VS Code Settings ---
+.vscode/
